@@ -42,7 +42,7 @@ digraph D {
         mlp [shape=record, label="{Dense(64)|ReLU|Dense(64)|ReLU}"];
     }
     subgraph cluster_value{
-        label="Q Net";
+        label="Q-Net";
         labeljust="l";
         graph[style=dashed];
         value_net [shape=record, label="Dense(Action space)"];
